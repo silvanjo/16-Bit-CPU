@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>Label</string>
+      <string>ALU</string>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>backgroundColor</string>
+      <awt-color>
+        <red>204</red>
+        <green>204</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </awt-color>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>8</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Add</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Left</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Right</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>result</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="280"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="380" y="160"/>
+      <p2 x="560" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="240"/>
+      <p2 x="640" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="900" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="340"/>
+      <p2 x="560" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="260"/>
+      <p2 x="640" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="280"/>
+      <p2 x="640" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="160"/>
+      <p2 x="560" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="260"/>
+      <p2 x="560" y="340"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

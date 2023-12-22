@@ -1,0 +1,27 @@
+# Registers
+r0: 00, r1: 01, r2, 10, r3: 11
+
+# immediate
+immediate(n): n-bit immediate value
+
+# One instruction is 16 bit
+
+# Add instruction
+add  r0 r1 r2
+0000 r0 r1 r2 000000
+
+# Add immediate instruction
+addi r0 r1 immediate(8)
+0001 r0 r1 immediate(8)
+
+# Load instruction
+load r0 r1 immediate(8)
+0010 r0 r1 immediate(8)
+
+# Store instruction
+store r0 r1 immediate(8)
+0011  r0 r1 immediate(8)
+
+# Jump instruction
+jump immediate(12)
+0100 immediate(12)
