@@ -210,16 +210,6 @@
       <pos x="80" y="540"/>
     </visualElement>
     <visualElement>
-      <elementName>Decoder</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Selector Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="180" y="320"/>
-    </visualElement>
-    <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
@@ -274,6 +264,26 @@
         </entry>
       </elementAttributes>
       <pos x="940" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Demultiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Write Enable</string>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="360"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -386,6 +396,10 @@
       <p2 x="300" y="360"/>
     </wire>
     <wire>
+      <p1 x="80" y="360"/>
+      <p2 x="180" y="360"/>
+    </wire>
+    <wire>
       <p1 x="440" y="300"/>
       <p2 x="520" y="300"/>
     </wire>
@@ -490,16 +504,16 @@
       <p2 x="360" y="420"/>
     </wire>
     <wire>
-      <p1 x="200" y="380"/>
-      <p2 x="200" y="420"/>
-    </wire>
-    <wire>
       <p1 x="280" y="200"/>
       <p2 x="280" y="320"/>
     </wire>
     <wire>
       <p1 x="280" y="380"/>
       <p2 x="280" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="400"/>
+      <p2 x="200" y="420"/>
     </wire>
     <wire>
       <p1 x="540" y="-160"/>

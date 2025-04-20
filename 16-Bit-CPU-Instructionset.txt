@@ -29,3 +29,18 @@ store rs rt immediate(8)
 # Jump instruction
 jump immediate(12)
 0100 immediate(12)
+
+# Branch instructions
+
+beq rs rt immediate(8)
+0101 rs rt immediate(8)
+
+bne rs rt immediate(8)
+0110 rs rt immediate(8)
+
+blt rs rt immediate(8)
+0111 rs rt immediate(8)
+
+bgt rs rt immediate(8)
+1000 rs rt immediate(8)
+

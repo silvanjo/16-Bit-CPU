@@ -133,7 +133,7 @@
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="800" y="700"/>
+      <pos x="800" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -144,7 +144,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>8</int>
+          <int>10</int>
         </entry>
         <entry>
           <string>Data</string>
@@ -177,11 +177,11 @@ with a ROM. Later use logic gates.</string>
         </entry>
         <entry>
           <string>Input Splitting</string>
-          <string>8</string>
+          <string>10</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1,1,1,1,1,1,1,1</string>
+          <string>1,1,1,1,1,1,1,1,2</string>
         </entry>
       </elementAttributes>
       <pos x="660" y="160"/>
@@ -190,20 +190,6 @@ with a ROM. Later use logic gates.</string>
       <elementName>Const</elementName>
       <elementAttributes/>
       <pos x="420" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="680" y="700"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -218,6 +204,10 @@ with a ROM. Later use logic gates.</string>
     <wire>
       <p1 x="680" y="400"/>
       <p2 x="800" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="640"/>
+      <p2 x="800" y="640"/>
     </wire>
     <wire>
       <p1 x="680" y="340"/>
@@ -250,10 +240,6 @@ with a ROM. Later use logic gates.</string>
     <wire>
       <p1 x="680" y="460"/>
       <p2 x="800" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="700"/>
-      <p2 x="800" y="700"/>
     </wire>
   </wires>
   <measurementOrdering/>
