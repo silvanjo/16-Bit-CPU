@@ -148,7 +148,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>81,c0,e8,50,42</data>
+          <data>81,c0,e8,50,42,5*4</data>
         </entry>
         <entry>
           <string>intFormat</string>
