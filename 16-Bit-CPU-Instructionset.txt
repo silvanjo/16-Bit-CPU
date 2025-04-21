@@ -44,3 +44,19 @@ blt rs rt immediate(8)
 bgt rs rt immediate(8)
 1000 rs rt immediate(8)
 
+# Load Immediate instruction
+li rt immediate(16)
+1001 rt 00 immediate(8)
+
+# Logical AND instruction
+and rs rt rd
+1010 rs rt rd 000000
+
+# Logical OR instruction
+or rs rt rd
+1011 rs rt rd 000000
+
+# Logical NOT instruction
+not rs rd
+1100 rs 00 rd 00000000
+

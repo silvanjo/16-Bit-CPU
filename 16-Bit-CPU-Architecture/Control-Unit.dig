@@ -86,7 +86,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>MemtoReg</string>
+          <string>LoadImm</string>
         </entry>
       </elementAttributes>
       <pos x="800" y="460"/>
@@ -148,7 +148,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>81,c0,e8,50,42,5*4</data>
+          <data>81,c0,c8,50,42,4*4,e0</data>
         </entry>
         <entry>
           <string>intFormat</string>
