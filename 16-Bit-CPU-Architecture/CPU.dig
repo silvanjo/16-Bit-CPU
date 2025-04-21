@@ -1509,6 +1509,30 @@
       </elementAttributes>
       <pos x="1040" y="320"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>aluop</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>aluop</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1740" y="280"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1556,7 +1580,7 @@
       <p2 x="2560" y="260"/>
     </wire>
     <wire>
-      <p1 x="1740" y="260"/>
+      <p1 x="1700" y="260"/>
       <p2 x="1760" y="260"/>
     </wire>
     <wire>
@@ -1669,11 +1693,15 @@
     </wire>
     <wire>
       <p1 x="1620" y="280"/>
-      <p2 x="1740" y="280"/>
+      <p2 x="1700" y="280"/>
     </wire>
     <wire>
       <p1 x="1100" y="280"/>
       <p2 x="1180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="280"/>
+      <p2 x="1760" y="280"/>
     </wire>
     <wire>
       <p1 x="-220" y="220"/>
@@ -1746,6 +1774,10 @@
     <wire>
       <p1 x="2200" y="420"/>
       <p2 x="2320" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="100"/>
+      <p2 x="1020" y="100"/>
     </wire>
     <wire>
       <p1 x="1000" y="-40"/>
@@ -2092,6 +2124,10 @@
       <p2 x="1700" y="160"/>
     </wire>
     <wire>
+      <p1 x="1700" y="260"/>
+      <p2 x="1700" y="280"/>
+    </wire>
+    <wire>
       <p1 x="1320" y="800"/>
       <p2 x="1320" y="820"/>
     </wire>
@@ -2218,10 +2254,6 @@
     <wire>
       <p1 x="1740" y="180"/>
       <p2 x="1740" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="1740" y="260"/>
-      <p2 x="1740" y="280"/>
     </wire>
     <wire>
       <p1 x="1100" y="280"/>
