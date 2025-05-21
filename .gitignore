@@ -1,0 +1,38 @@
+# Compiler-Output
+*.o
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.exe
+
+# Build-Targets
+assembler
+*.dSYM/
+*.obj
+*.log
+
+# Test-Dateien
+*.txt
+*.bin
+*.dump
+
+# Backup- und temporäre Dateien
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Editor-spezifisch
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+
+# Obsolete oder generierte Dateien
+*.asm~*
+*.orig
+

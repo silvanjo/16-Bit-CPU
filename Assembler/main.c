@@ -263,7 +263,7 @@ static int assemble_line(const char* line, char* out) {
 
 int main(int argc, char* argv[]) {
     
-    if (argc != 2) {
+    if (argc != 3) {
         fprintf(stderr, "Aufruf: %s <input_file> <output_file>\n", argv[0]);
         return EXIT_FAILURE;
     }
