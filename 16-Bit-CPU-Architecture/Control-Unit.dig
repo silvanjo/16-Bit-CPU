@@ -66,7 +66,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Branch</string>
+          <string>MemRead</string>
         </entry>
       </elementAttributes>
       <pos x="800" y="280"/>
@@ -76,27 +76,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>MemRead</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>LoadImm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>MemWrite</string>
         </entry>
       </elementAttributes>
       <pos x="800" y="400"/>
@@ -106,10 +86,20 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>MemWrite</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>ALUSrc</string>
         </entry>
       </elementAttributes>
-      <pos x="800" y="520"/>
+      <pos x="800" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -119,7 +109,7 @@
           <string>RegWrite</string>
         </entry>
       </elementAttributes>
-      <pos x="800" y="580"/>
+      <pos x="800" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -133,7 +123,7 @@
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="800" y="640"/>
+      <pos x="800" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -144,11 +134,11 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>10</int>
+          <int>9</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data>81,c0,c8,50,42,4*4,e0,181,281,381</data>
+          <data>41,60,64,28,22,4*0,70,c1,141,1c1</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -177,11 +167,11 @@ with a ROM. Later use logic gates.</string>
         </entry>
         <entry>
           <string>Input Splitting</string>
-          <string>10</string>
+          <string>9</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1,1,1,1,1,1,1,1,2</string>
+          <string>1,1,1,1,1,1,1,2</string>
         </entry>
       </elementAttributes>
       <pos x="660" y="160"/>
@@ -206,10 +196,6 @@ with a ROM. Later use logic gates.</string>
       <p2 x="800" y="400"/>
     </wire>
     <wire>
-      <p1 x="680" y="640"/>
-      <p2 x="800" y="640"/>
-    </wire>
-    <wire>
       <p1 x="680" y="340"/>
       <p2 x="800" y="340"/>
     </wire>
@@ -230,16 +216,16 @@ with a ROM. Later use logic gates.</string>
       <p2 x="800" y="520"/>
     </wire>
     <wire>
+      <p1 x="680" y="460"/>
+      <p2 x="800" y="460"/>
+    </wire>
+    <wire>
       <p1 x="360" y="140"/>
       <p2 x="460" y="140"/>
     </wire>
     <wire>
       <p1 x="680" y="220"/>
       <p2 x="800" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="460"/>
-      <p2 x="800" y="460"/>
     </wire>
   </wires>
   <measurementOrdering/>
