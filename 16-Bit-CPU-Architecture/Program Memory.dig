@@ -36,7 +36,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
       <pos x="860" y="560"/>
@@ -60,7 +60,7 @@
       <elementAttributes>
         <entry>
           <string>AddrBits</string>
-          <int>4</int>
+          <int>16</int>
         </entry>
         <entry>
           <string>isProgramMemory</string>
